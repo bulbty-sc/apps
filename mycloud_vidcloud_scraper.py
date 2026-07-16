@@ -882,9 +882,16 @@ def scrape(
     replace_mode: bool,
     skip_watch_urls: bool,
     proxy_url: str | None,
+    watch_limit: int,
 ) -> None:
     session = create_session(proxy_url=proxy_url)
     existing_movies = load_existing_movies(output_file)
+    existing_by_url = {
+        movie.get("url"): movie
+        for movie in existing_movies
+        if isinstance(movie.get("url"), str)
+    }
+    watch_fetches = 0
 
     first_page_url = build_listing_page_url(1)
 
@@ -953,25 +960,32 @@ def scrape(
                 f"{movie['title']}"
             )
 
-            if not skip_watch_urls:
+            old_movie = existing_by_url.get(movie_url)
+            cached_watch_urls = (
+                old_movie.get("watch_urls", [])
+                if isinstance(old_movie, dict)
+                else []
+            )
+
+            if isinstance(cached_watch_urls, list) and cached_watch_urls:
+                movie["watch_urls"] = cached_watch_urls
+                print(
+                    f"      Watch URLs: {len(cached_watch_urls)} (cached)"
+                )
+            elif not skip_watch_urls and (
+                watch_limit == 0 or watch_fetches < watch_limit
+            ):
                 movie["watch_urls"] = extract_watch_urls(
                     session=session,
                     movie_url=movie_url,
                 )
+                watch_fetches += 1
 
                 print(
                     f"      Watch URLs: "
-                    f"{len(movie['watch_urls'])}"
+                    f"{len(movie['watch_urls'])} "
+                    f"(lookup {watch_fetches}/{watch_limit or 'unlimited'})"
                 )
-
-                for watch_source in movie["watch_urls"]:
-                    print(
-                        f"      - {watch_source['title']}: "
-                        f"{watch_source['url']}"
-                    )
-                    print(
-                        f"        embed: {watch_source['embed']}"
-                    )
 
                 time.sleep(
                     random.uniform(
@@ -979,6 +993,10 @@ def scrape(
                         MOVIE_DELAY_MAX,
                     )
                 )
+            else:
+                movie["watch_urls"] = []
+                if not skip_watch_urls:
+                    print("      Watch URLs: deferred to a later run")
 
             movie["order"] = len(scraped_movies) + 1
 
@@ -1078,6 +1096,16 @@ def parse_arguments() -> argparse.Namespace:
     )
 
     parser.add_argument(
+        "--watch-limit",
+        type=int,
+        default=30,
+        help=(
+            "ஒரு run-ல் புதிதாக fetch செய்ய வேண்டிய watch pages எண்ணிக்கை. "
+            "Default: 30. 0 என்றால் unlimited. Existing watch URLs cache ஆகும்."
+        ),
+    )
+
+    parser.add_argument(
         "--proxy",
         default=os.getenv("SCRAPER_PROXY"),
         help=(
@@ -1090,6 +1118,8 @@ def parse_arguments() -> argparse.Namespace:
 
     if args.max_pages < 0:
         parser.error("--max-pages 0 அல்லது அதற்கு மேல் இருக்க வேண்டும்.")
+    if args.watch_limit < 0:
+        parser.error("--watch-limit 0 அல்லது அதற்கு மேல் இருக்க வேண்டும்.")
 
     return args
 
@@ -1104,6 +1134,7 @@ def main() -> None:
             replace_mode=args.replace,
             skip_watch_urls=args.skip_watch_urls,
             proxy_url=args.proxy,
+            watch_limit=args.watch_limit,
         )
 
     except ScraperError as exc:
