@@ -1,4 +1,4 @@
-name: Scan every 15 minutes
+name: Quick scan every 15 minutes
 
 on:
   schedule:
@@ -8,14 +8,15 @@ on:
 permissions:
   contents: write
 
+# Full and quick scans must not write movies.json at the same time.
 concurrency:
-  group: scraper-scan
+  group: movie-scraper-writer
   cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -32,32 +33,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scanner
+      - name: Scan newest five pages
         env:
           SCRAPER_PROXY: ${{ secrets.SCRAPER_PROXY }}
-        run: python mycloud_vidcloud_scraper.py --output movies.json --max-pages 0
+        run: python mycloud_vidcloud_scraper.py --output movies.json --max-pages 5
 
       - name: Commit updated JSON
         shell: bash
         run: |
           set -euo pipefail
 
-          if [ ! -f movies.json ]; then
-            echo "movies.json was not created."
-            exit 1
-          fi
+          test -f movies.json || { echo "movies.json was not created."; exit 1; }
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # -f also adds the file if an existing .gitignore rule ignores JSON files.
           git add -f movies.json
 
-          # Check the staged index, so a new/untracked movies.json is detected too.
           if git diff --cached --quiet -- movies.json; then
             echo "movies.json has no changes."
             exit 0
           fi
 
-          git commit -m "Update movie scan"
-          git push origin HEAD:${GITHUB_REF_NAME}
+          git commit -m "Update newest movie pages"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
