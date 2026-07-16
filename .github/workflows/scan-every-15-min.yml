@@ -35,7 +35,7 @@ jobs:
       - name: Run scanner
         env:
           SCRAPER_PROXY: ${{ secrets.SCRAPER_PROXY }}
-        run: python mycloud_vidcloud_scraper.py --output movies.json --max-pages 1
+        run: python mycloud_vidcloud_scraper.py --output movies.json --max-pages 0
 
       - name: Commit updated JSON
         shell: bash
