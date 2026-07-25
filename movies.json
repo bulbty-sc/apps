@@ -1,10 +1,34 @@
 {
   "source": "https://tamilyogi.cx/movie",
-  "updated_at": "2026-07-25T06:36:27.752928+00:00",
+  "updated_at": "2026-07-25T10:58:11.777460+00:00",
   "scraped_pages": 5,
   "detected_last_page": 231,
   "total_movies": 7357,
   "movies": [
+    {
+      "title": "72 Hours",
+      "url": "https://tamilyogi.cx/movie/watch-72-hours-hd-657820",
+      "poster": "https://tamil.ovh/wp-content/uploads/72-Hours-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 1,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-72-hours-hd-657820.14959",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1784889236920_f00165ee-39a4-47a1-b4a0-a216c2e532d0&server_id=server0&post_id=7667&ts=1784898369&token=5cd84afaa7655f9d972095da5dbb8f30b668bac21732fbf5a2ba343800a021b6"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-72-hours-hd-657820.14958",
+          "embed": "https://embedojo.net/video/213448e67db712dafafc8466eb7c709b"
+        }
+      ],
+      "order": 1
+    },
     {
       "title": "The Truthers",
       "url": "https://tamilyogi.cx/movie/watch-the-truthers-hd-922662",
@@ -14,7 +38,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 1,
+      "position": 2,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -27,7 +51,7 @@
           "embed": "https://embedojo.net/video/c23775a13620403a78cd480289da6592"
         }
       ],
-      "order": 1
+      "order": 2
     },
     {
       "title": "Dancer, Texas Pop. 81",
@@ -38,7 +62,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 2,
+      "position": 3,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -51,7 +75,7 @@
           "embed": "https://embedojo.net/video/4e2526346178e15d81b7b738ccf80264"
         }
       ],
-      "order": 2
+      "order": 3
     },
     {
       "title": "Mellisai",
@@ -62,7 +86,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 3,
+      "position": 4,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -73,30 +97,6 @@
           "title": "VidCloud",
           "url": "https://tamilyogi.cx/watch-movie/watch-mellisai-hd-379984.7030",
           "embed": "https://embedojo.net/video/849aee2da1b0422e245c759afc702399"
-        }
-      ],
-      "order": 3
-    },
-    {
-      "title": "72 Hours",
-      "url": "https://tamilyogi.cx/movie/watch-72-hours-hd-657820",
-      "poster": "https://tamil.ovh/wp-content/uploads/72-Hours-2026-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 4,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-72-hours-hd-657820.14959",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1784889236920_f00165ee-39a4-47a1-b4a0-a216c2e532d0&server_id=server0&post_id=7667&ts=1784898369&token=5cd84afaa7655f9d972095da5dbb8f30b668bac21732fbf5a2ba343800a021b6"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-72-hours-hd-657820.14958",
-          "embed": "https://embedojo.net/video/213448e67db712dafafc8466eb7c709b"
         }
       ],
       "order": 4
