@@ -1,58 +1,10 @@
 {
   "source": "https://tamilyogi.cx/movie",
-  "updated_at": "2026-08-07T06:01:13.705355+00:00",
+  "updated_at": "2026-08-07T09:40:41.367621+00:00",
   "scraped_pages": 5,
   "detected_last_page": 232,
   "total_movies": 7387,
   "movies": [
-    {
-      "title": "The Super Mario Galaxy Movie",
-      "url": "https://tamilyogi.cx/movie/watch-the-super-mario-galaxy-movie-hd-445430",
-      "poster": "https://tamil.ovh/wp-content/uploads/The-Super-Mario-Galaxy-Movie-2026-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 1,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-the-super-mario-galaxy-movie-hd-445430.15023",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786080782845_55d19151-1b78-4b56-b978-3032ee68623e&server_id=server0&post_id=7699&ts=1786082458&token=51fb0b16263a67f30ff6a59c62a703a2088c995a79aed330ec0f0ae243ffb410"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-the-super-mario-galaxy-movie-hd-445430.15022",
-          "embed": "https://embedojo.net/video/02d1638f41f84e2dfd35a7f74ce01648"
-        }
-      ],
-      "order": 1
-    },
-    {
-      "title": "MEP",
-      "url": "https://tamilyogi.cx/movie/watch-mep-hd-289408",
-      "poster": "https://tamil.ovh/wp-content/uploads/MEP-2026-Poster.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 2,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-mep-hd-289408.15021",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786080012261_87b39efa-436b-43da-85f5-f591ded218a8&server_id=server0&post_id=7698&ts=1786082460&token=b9cc270a1550589c7765a90e84513b17c205e2bfc9aecd8b520ffecd1728bba9"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-mep-hd-289408.15020",
-          "embed": "https://embedojo.net/video/c7ca3d6c3a32be270de9d59c7d3632e5"
-        }
-      ],
-      "order": 2
-    },
     {
       "title": "Dark Giant",
       "url": "https://tamilyogi.cx/movie/watch-dark-giant-hd-354601",
@@ -62,7 +14,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 3,
+      "position": 1,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -75,7 +27,79 @@
           "embed": "https://embedojo.net/video/0cbbb4609ced0852da144f436f06ef8e"
         }
       ],
+      "order": 1
+    },
+    {
+      "title": "Nooru Sami",
+      "url": "https://tamilyogi.cx/movie/watch-nooru-sami-hd-589731",
+      "poster": "https://tamil.ovh/wp-content/uploads/Nooru-Sami-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 2,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-nooru-sami-hd-589731.14598",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1782028278130_decd11d6-f68b-4261-9361-c0365cb5e7e7&server_id=server0&post_id=7501&ts=1784238798&token=9767414b6673d44c89610a9c4b433850463254e18cd1a533416240c4f7f22dcc"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-nooru-sami-hd-589731.14596",
+          "embed": "https://embedojo.net/video/2807e5da47a64f8e7f640390a55efc9d"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "title": "The Super Mario Galaxy Movie",
+      "url": "https://tamilyogi.cx/movie/watch-the-super-mario-galaxy-movie-hd-445430",
+      "poster": "https://tamil.ovh/wp-content/uploads/The-Super-Mario-Galaxy-Movie-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 3,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-the-super-mario-galaxy-movie-hd-445430.15023",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786080782845_55d19151-1b78-4b56-b978-3032ee68623e&server_id=server0&post_id=7699&ts=1786082458&token=51fb0b16263a67f30ff6a59c62a703a2088c995a79aed330ec0f0ae243ffb410"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-the-super-mario-galaxy-movie-hd-445430.15022",
+          "embed": "https://embedojo.net/video/02d1638f41f84e2dfd35a7f74ce01648"
+        }
+      ],
       "order": 3
+    },
+    {
+      "title": "MEP",
+      "url": "https://tamilyogi.cx/movie/watch-mep-hd-289408",
+      "poster": "https://tamil.ovh/wp-content/uploads/MEP-2026-Poster.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 4,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-mep-hd-289408.15021",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786080012261_87b39efa-436b-43da-85f5-f591ded218a8&server_id=server0&post_id=7698&ts=1786082460&token=b9cc270a1550589c7765a90e84513b17c205e2bfc9aecd8b520ffecd1728bba9"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-mep-hd-289408.15020",
+          "embed": "https://embedojo.net/video/c7ca3d6c3a32be270de9d59c7d3632e5"
+        }
+      ],
+      "order": 4
     },
     {
       "title": "Idhayam Murali",
@@ -86,7 +110,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 4,
+      "position": 5,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -99,7 +123,7 @@
           "embed": "https://embedojo.net/video/7cdab8838d8e8b160781b02d3d6c6701"
         }
       ],
-      "order": 4
+      "order": 5
     },
     {
       "title": "Oh..! Sukumari",
@@ -110,7 +134,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 5,
+      "position": 6,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -121,30 +145,6 @@
           "title": "VidCloud",
           "url": "https://tamilyogi.cx/watch-movie/watch-oh-sukumari-hd-278335.15016",
           "embed": "https://embedojo.net/video/e87203a50fddb3a7c5496139c0858c7c"
-        }
-      ],
-      "order": 5
-    },
-    {
-      "title": "Nooru Sami",
-      "url": "https://tamilyogi.cx/movie/watch-nooru-sami-hd-589731",
-      "poster": "https://tamil.ovh/wp-content/uploads/Nooru-Sami-2026-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 6,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-nooru-sami-hd-589731.14598",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1782028278130_decd11d6-f68b-4261-9361-c0365cb5e7e7&server_id=server0&post_id=7501&ts=1784238798&token=9767414b6673d44c89610a9c4b433850463254e18cd1a533416240c4f7f22dcc"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-nooru-sami-hd-589731.14596",
-          "embed": "https://embedojo.net/video/2807e5da47a64f8e7f640390a55efc9d"
         }
       ],
       "order": 6
