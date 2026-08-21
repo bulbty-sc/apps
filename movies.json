@@ -1,10 +1,34 @@
 {
   "source": "https://tamilyogi.cx/movie",
-  "updated_at": "2026-08-21T04:50:40.443216+00:00",
+  "updated_at": "2026-08-21T05:21:02.512987+00:00",
   "scraped_pages": 5,
   "detected_last_page": 233,
   "total_movies": 7420,
   "movies": [
+    {
+      "title": "Dark",
+      "url": "https://tamilyogi.cx/movie/watch-dark-hd-307932",
+      "poster": "https://tamil.ovh/wp-content/uploads/Dark-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 1,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15087",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1787258112992_1fb41230-afac-4e21-955a-c17c199e69e2&server_id=server0&post_id=7731&ts=1787259754&token=db16ac894ab815b12ea2484ef024e4da91c703aa58908c4de5aa9f1c0f648fc1"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15086",
+          "embed": "https://embedojo.net/video/54960822a760a9aa16538f4444c79cde"
+        }
+      ],
+      "order": 1
+    },
     {
       "title": "Chennai Love Story",
       "url": "https://tamilyogi.cx/movie/watch-chennai-love-story-hd-991925",
@@ -14,7 +38,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 1,
+      "position": 2,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -27,7 +51,7 @@
           "embed": "https://embedojo.net/video/0574fe07b8da29c136d03d0fe12f54b7"
         }
       ],
-      "order": 1
+      "order": 2
     },
     {
       "title": "Jana Nayagan",
@@ -38,7 +62,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 2,
+      "position": 3,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -49,30 +73,6 @@
           "title": "VidCloud",
           "url": "https://tamilyogi.cx/watch-movie/watch-jana-nayagan-hd-911182.14940",
           "embed": "https://embedojo.net/video/08426b9bd3036bd87b9a936aa0d833cf"
-        }
-      ],
-      "order": 2
-    },
-    {
-      "title": "Dark",
-      "url": "https://tamilyogi.cx/movie/watch-dark-hd-307932",
-      "poster": "https://tamil.ovh/wp-content/uploads/Dark-2026-91107-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 3,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15087",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1787258112992_1fb41230-afac-4e21-955a-c17c199e69e2&server_id=server0&post_id=7731&ts=1787259754&token=db16ac894ab815b12ea2484ef024e4da91c703aa58908c4de5aa9f1c0f648fc1"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15086",
-          "embed": "https://embedojo.net/video/54960822a760a9aa16538f4444c79cde"
         }
       ],
       "order": 3
