@@ -1,34 +1,10 @@
 {
   "source": "https://tamilyogi.cx/movie",
-  "updated_at": "2026-08-21T06:22:40.312704+00:00",
+  "updated_at": "2026-08-21T07:13:57.097714+00:00",
   "scraped_pages": 5,
   "detected_last_page": 233,
   "total_movies": 7420,
   "movies": [
-    {
-      "title": "Dark",
-      "url": "https://tamilyogi.cx/movie/watch-dark-hd-307932",
-      "poster": "https://tamil.ovh/wp-content/uploads/Dark-2026-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 1,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15087",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1787258112992_1fb41230-afac-4e21-955a-c17c199e69e2&server_id=server0&post_id=7731&ts=1787259754&token=db16ac894ab815b12ea2484ef024e4da91c703aa58908c4de5aa9f1c0f648fc1"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15086",
-          "embed": "https://embedojo.net/video/54960822a760a9aa16538f4444c79cde"
-        }
-      ],
-      "order": 1
-    },
     {
       "title": "Chennai Love Story",
       "url": "https://tamilyogi.cx/movie/watch-chennai-love-story-hd-991925",
@@ -38,7 +14,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 2,
+      "position": 1,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -49,6 +25,30 @@
           "title": "VidCloud",
           "url": "https://tamilyogi.cx/watch-movie/watch-chennai-love-story-hd-991925.15088",
           "embed": "https://embedojo.net/video/0574fe07b8da29c136d03d0fe12f54b7"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "title": "Dark",
+      "url": "https://tamilyogi.cx/movie/watch-dark-hd-307932",
+      "poster": "https://tamil.ovh/wp-content/uploads/Dark-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 2,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15087",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1787258112992_1fb41230-afac-4e21-955a-c17c199e69e2&server_id=server0&post_id=7731&ts=1787259754&token=db16ac894ab815b12ea2484ef024e4da91c703aa58908c4de5aa9f1c0f648fc1"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-dark-hd-307932.15086",
+          "embed": "https://embedojo.net/video/54960822a760a9aa16538f4444c79cde"
         }
       ],
       "order": 2
