@@ -1,10 +1,34 @@
 {
   "source": "https://tamilyogi.cx/movie",
-  "updated_at": "2026-09-11T06:10:07.119402+00:00",
+  "updated_at": "2026-09-11T11:13:58.852303+00:00",
   "scraped_pages": 5,
   "detected_last_page": 235,
   "total_movies": 7462,
   "movies": [
+    {
+      "title": "Vishwanath and Sons",
+      "url": "https://tamilyogi.cx/movie/watch-vishwanath-and-sons-hd-184804",
+      "poster": "https://tamil.ovh/wp-content/uploads/Vishwanath-and-Sons-2026-Poster-.jpg",
+      "quality": "HD",
+      "year": null,
+      "duration_minutes": null,
+      "type": null,
+      "page": 1,
+      "position": 1,
+      "watch_urls": [
+        {
+          "title": "MyCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-vishwanath-and-sons-hd-184804.15065",
+          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786741539033_3f4e13b4-e396-4474-b2cf-63c6002c6599&server_id=server0&post_id=7720&ts=1786744520&token=8d2ae7c3151a01c246e29a17af4c17352701c69a43e771a3ed078e90df9bd8ae"
+        },
+        {
+          "title": "VidCloud",
+          "url": "https://tamilyogi.cx/watch-movie/watch-vishwanath-and-sons-hd-184804.15064",
+          "embed": "https://embedojo.net/video/4f77d4bd76525f90a366129ab48430d3"
+        }
+      ],
+      "order": 1
+    },
     {
       "title": "Pinocchio: Unstrung",
       "url": "https://tamilyogi.cx/movie/watch-pinocchio-unstrung-hd-737530",
@@ -14,7 +38,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 1,
+      "position": 2,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -27,7 +51,7 @@
           "embed": "https://embedojo.net/video/11123634b473a9656434c36549d426d4"
         }
       ],
-      "order": 1
+      "order": 2
     },
     {
       "title": "Salmokji: Whispering Water",
@@ -38,7 +62,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 2,
+      "position": 3,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -51,7 +75,7 @@
           "embed": "https://embedojo.net/video/a2cc8fe072c513bcd7faa42db12ac428"
         }
       ],
-      "order": 2
+      "order": 3
     },
     {
       "title": "Vengeance",
@@ -62,7 +86,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 3,
+      "position": 4,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -75,7 +99,7 @@
           "embed": "https://embedojo.net/video/b21946c2834c2772be091d934b11ed89"
         }
       ],
-      "order": 3
+      "order": 4
     },
     {
       "title": "Varavu",
@@ -86,7 +110,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 4,
+      "position": 5,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -99,7 +123,7 @@
           "embed": "https://embedojo.net/video/12eef684d5c79ca628f9225b25d3785e"
         }
       ],
-      "order": 4
+      "order": 5
     },
     {
       "title": "Maharaja Hostel",
@@ -110,7 +134,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 5,
+      "position": 6,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -123,7 +147,7 @@
           "embed": "https://embedojo.net/video/4504e90afa2d9d751f9a9eb1981e7cea"
         }
       ],
-      "order": 5
+      "order": 6
     },
     {
       "title": "Magudam",
@@ -134,7 +158,7 @@
       "duration_minutes": null,
       "type": null,
       "page": 1,
-      "position": 6,
+      "position": 7,
       "watch_urls": [
         {
           "title": "MyCloud",
@@ -145,30 +169,6 @@
           "title": "VidCloud",
           "url": "https://tamilyogi.cx/watch-movie/watch-magudam-hd-315817.15072",
           "embed": "https://embedojo.net/video/108c570c7badafa6a81cb7c0313c11bd"
-        }
-      ],
-      "order": 6
-    },
-    {
-      "title": "Vishwanath and Sons",
-      "url": "https://tamilyogi.cx/movie/watch-vishwanath-and-sons-hd-184804",
-      "poster": "https://tamil.ovh/wp-content/uploads/Vishwanath-and-Sons-2026-Poster-.jpg",
-      "quality": "HD",
-      "year": null,
-      "duration_minutes": null,
-      "type": null,
-      "page": 1,
-      "position": 7,
-      "watch_urls": [
-        {
-          "title": "MyCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-vishwanath-and-sons-hd-184804.15065",
-          "embed": "https://tamilyogi.cx/hmac-player/?video_id=1786741539033_3f4e13b4-e396-4474-b2cf-63c6002c6599&server_id=server0&post_id=7720&ts=1786744520&token=8d2ae7c3151a01c246e29a17af4c17352701c69a43e771a3ed078e90df9bd8ae"
-        },
-        {
-          "title": "VidCloud",
-          "url": "https://tamilyogi.cx/watch-movie/watch-vishwanath-and-sons-hd-184804.15064",
-          "embed": "https://embedojo.net/video/4f77d4bd76525f90a366129ab48430d3"
         }
       ],
       "order": 7
